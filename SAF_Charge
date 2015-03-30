@@ -1,0 +1,9 @@
+<html>
+    <body>
+        <form name="login_form" action="http//10.124.128.19:9090">
+            NRIC: <input type="text" name="nric"> <br />
+            Offence: <input type="password" name="offence"> <br />
+            <input type="submit" name="Submit" value="Submit" />
+        </form>
+    </body>
+</html>
