@@ -2,7 +2,13 @@
     <body>
         <form action="http://10.124.128.19:9090">
             NRIC: <input type="text" name="nric"> <br />
-            Offence: <input type="password" name="offence"> <br />
+            Offence: <select name="offence">
+                <option value="AWOL">AWOL</option>
+                <option value="AWOL - Assault">AWOL - Assault</option>
+                <option value="AWOL - Drug Abuse">AWOL - Drug Abuse</option>
+                <option value="AWOL- Weaponry">AWOL- Weaponry</option>
+                <option value="AWOL- Classified Information">AWOL- Classified Information</option>
+            </select> <br />
             <input type="submit" name="Submit" value="Submit" />
         </form>
     </body>
